@@ -4,7 +4,7 @@ on:
     branches:
       - main # check your repo, your default branch might be master!
   pull_request:
-    branches: main
+    branches: [main]
     types: [opened, edited]
 
 jobs:
